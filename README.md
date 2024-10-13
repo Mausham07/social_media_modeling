@@ -28,3 +28,11 @@ Sample data is provided for all tables, including users like 'John Smith' and 'J
   
   ```sql
   UPDATE posts SET caption = 'Vaccation pictures' WHERE post_id = 4;
+
+  
+Retrieve all posts made by the user with `user_id = 3`.
+
+```sql
+SELECT * 
+FROM posts 
+WHERE user_id = 3;
